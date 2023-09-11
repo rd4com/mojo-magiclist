@@ -25,7 +25,7 @@ for i in range(COL.len()):
     if OW.is_bool(COL[i]):
         let r:Bool=OW.to_bool(COL[i])
         print(r)
-COL.delete_elements(True,OW.is_bool)         #typed value based deletion
+COL.delete_elements("ann",OW.is_string)      #typed value based deletion
 COL.delete(0)
 print("-----")
 print(COL.data())                            #pave the way for json-like serialisation
