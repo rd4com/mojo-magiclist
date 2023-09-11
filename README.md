@@ -36,3 +36,14 @@ print(COL.data())                            #pave the way for json-like seriali
 - [x] convert native type to object
 - [x] index based deletion 
 - [x] initialize/export from/to builtin.object multitype array
+# output
+```
+-------------
+ann
+1.0
+3
+True
+-----
+[1.0, 3]
+```
+
