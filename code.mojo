@@ -111,3 +111,8 @@ struct magiclist:
 				tmp.append(self.o[i])
 			i+=1
 		self.o = tmp
+
+
+#var o:String = chr(i)
+#let p = object(o._strref_dangerous())
+#_=o
