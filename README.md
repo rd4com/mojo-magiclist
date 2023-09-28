@@ -1,8 +1,9 @@
-> part of the effort for the community
+> :heart: part of the effort for the community
 > https://github.com/Lynet101/Mojo_community-lib
-### thanks to @Stole i met the discord server, he discovered thoses ._values and get_as_string pointers and came up with a way to convert the object to a string 
-> this is not a library to use as-is, have not been tested extensively.
-```
+
+> this is not a library , it has not been tested.
+#### Thanks to @Stole from the discord who helped to convert the object to a string 
+```python
 var COL=magiclist() #var peoples=magiclist(["foo",1])
 print("-------------")
 COL.push("something")
